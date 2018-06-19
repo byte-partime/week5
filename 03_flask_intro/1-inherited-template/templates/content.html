@@ -1,0 +1,21 @@
+<!--
+  content.html
+  ============
+  This file inherits from base.html and is called by
+  inherited_template.py to build a dynamic(ish) page.
+-->
+
+{% extends "base.html" %}
+
+{% block title %} {{ title }} {% endblock %}
+
+{% block header %} {{ header }} {% endblock %}
+
+{% block content %}
+<p>{{ content }}</p>
+<hr>
+<form action='/this-one-handles-a-form' method='post'>
+  <input name="candy">
+  <input type="submit">
+</form>
+{% endblock %}

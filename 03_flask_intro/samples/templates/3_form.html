@@ -1,0 +1,12 @@
+{% extends "2_inherited_base.html" %}
+
+{% block title %}Candy Form Sample{% endblock %}
+
+{% block header %}Enter your favorite candy:{% endblock %}
+
+{% block content %}
+<form action='/' method='POST'>
+  <input name='candy'>
+  <input type='submit'>
+</form>
+{% endblock %}

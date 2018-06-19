@@ -1,0 +1,64 @@
+/*############################ Body and Title ######################################*/
+
+body{
+	background-image: url("images/bg_galaxy.jpg");
+	background-size: 100%;
+	position: relative;
+	height: 800px;
+	color: white;
+}
+
+.title{
+	width: 15%;
+	position: fixed;
+	right: 0;
+}
+
+.wrapper > img{
+	width:100%;
+	display: inline-block;
+}
+
+/*######################## Death Star, Tatooine, Falcon#####################*/
+
+.first{
+	width: 100%;
+	height: 60%;
+}
+
+#death{
+	width: 15%;
+	display: inline-block;
+	padding-left: 30%;
+}
+
+#tatooine{
+	width: 30%;
+	display: inline-block;
+}
+
+#falcon{
+	display: inline-block;
+	padding-left: 10%;
+	width: 10%;
+}
+
+/*######################## X-Wing and Tie Fighter n#####################*/
+
+.second{
+	width: 100%;
+	height: 40%;
+}
+
+.fighter{
+	width: 10%;
+	/*display: inline-block;*/
+	padding-left: 30%;
+}
+
+.victory{
+	position: fixed;
+	right: 0;
+	top: 50%;
+	width: 10%;
+}

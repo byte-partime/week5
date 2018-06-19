@@ -1,0 +1,15 @@
+/*#navUL{
+	color: green;
+}
+*/
+.listBlue{
+	color: blue;
+}
+
+.listRed{
+	color: red;
+}
+
+.listRed > li{
+	font-size: 2em;
+}

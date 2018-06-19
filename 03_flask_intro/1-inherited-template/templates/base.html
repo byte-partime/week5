@@ -1,0 +1,34 @@
+<!--
+  base.html
+  =========
+  This file lays out the skeleton of a basic HTML page.
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- example syntax for inherited block and default value -->
+  <title>{% block title %}Default Title{% endblock %}</title>
+</head>
+
+<body>
+<! -- example jinja2 logic -->
+{% if true %}
+<p>This one is true!</p>
+{% endif %}
+
+{% if false %}
+<p>This one won't happen.</p>
+{% endif %}
+
+<!-- header block -->
+<h1>{% block header %} Default Header {% endblock %}</h1>
+
+<!--
+  content block
+  Most of your stuff will go here.
+-->
+{% block content %} blah blah blah {% endblock %}
+
+</body>
+</html>
